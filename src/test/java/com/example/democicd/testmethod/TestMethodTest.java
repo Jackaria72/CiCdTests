@@ -15,6 +15,6 @@ class TestMethodTest {
     @Test
     void testFarewell() {
         TestMethod testMethod = new TestMethod();
-        assertEquals("Goodbye", testMethod.farewell());
+        assertEquals("Goodbye Bob", testMethod.farewell("Bob"));
     }
 }
