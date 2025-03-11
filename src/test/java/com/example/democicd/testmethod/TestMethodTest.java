@@ -17,4 +17,5 @@ class TestMethodTest {
         TestMethod testMethod = new TestMethod();
         assertEquals("Goodbye Bob", testMethod.farewell("Bob"));
     }
+
 }

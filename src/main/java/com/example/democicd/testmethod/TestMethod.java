@@ -5,7 +5,9 @@ public class TestMethod {
     String greeting() {
         return "Hello";
     }
+  
     String farewell(String name) {
         return "Goodbye " + name;
     }
+
 }
