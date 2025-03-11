@@ -11,4 +11,11 @@ class TestMethodTest {
         TestMethod testMethod = new TestMethod();
         assertEquals("Hello", testMethod.greeting());
     }
+
+    @Test
+    void testFarewell() {
+        TestMethod testMethod = new TestMethod();
+        assertEquals("Goodbye Bob", testMethod.farewell("Bob"));
+    }
+
 }
